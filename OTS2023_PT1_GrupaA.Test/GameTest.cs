@@ -23,6 +23,7 @@ namespace OTS2026_PT1_GrupaA.Test
 
             //ASSERT
             Assert.That(gameScore.ToString(), Is.EqualTo(score));
+
         }
 
         [Test]
