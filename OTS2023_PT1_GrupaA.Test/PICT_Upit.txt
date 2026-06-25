@@ -1,0 +1,30 @@
+﻿AmountOfFish: 13, 10, 4
+AmountOfBait: 11, 10, 9
+HasBoat: true, false
+Score: Good, Average, Bad
+
+if [AmountOfFish] = 13 then [Score] = "Good";
+
+if [AmountOfFish] = 10 and [AmountOfBait] = 10 and [HasBoat] = "true" and [AmountOfFish] = 10 then [Score] = "Good";
+
+if [AmountOfFish] = 4 and [AmountOfBait] = 10 and [HasBoat] = "true" and [AmountOfFish] = 4 then [Score] = "Average";
+
+if [AmountOfFish] = 4 and [AmountOfBait] = 9 and [HasBoat] = "false" then [Score] = "Bad";
+
+if [AmountOfFish] = 4 and [AmountOfBait] = 10 and [HasBoat] = "false" then [Score] = "Bad";
+
+if [AmountOfFish] = 10 and [AmountOfBait] = 10 and [HasBoat] = "false" and [AmountOfFish] = 10 then [Score] = "Bad";
+
+if [AmountOfFish] = 10 and [AmountOfBait] = 9 and [HasBoat] = "false" and [AmountOfFish] = 10 then [Score] = "Bad";
+
+if [AmountOfFish] = 10 and [AmountOfBait] = 9 and [HasBoat] = "true" and [AmountOfFish] = 10 then [Score] = "Bad";
+
+if [AmountOfFish] = 4 and [AmountOfBait] = 11 and [HasBoat] = "true" and [AmountOfFish] = 4 then [Score] = "Average";
+
+if [AmountOfFish] = 4 and [AmountOfBait] = 11 and [HasBoat] = "false" and [AmountOfFish] = 4 then [Score] = "Bad";
+
+if [AmountOfFish] = 4 and [AmountOfBait] = 9 and [HasBoat] = "true" and [AmountOfFish] = 4 then [Score] = "Bad";
+
+if [AmountOfFish] = 10 and [AmountOfBait] = 11 and [HasBoat] = "true" and [AmountOfFish] = 10 then [Score] = "Good";
+
+if [AmountOfFish] = 10 and [AmountOfBait] = 11 and [HasBoat] = "false" and [AmountOfFish] = 10 then [Score] = "Bad";

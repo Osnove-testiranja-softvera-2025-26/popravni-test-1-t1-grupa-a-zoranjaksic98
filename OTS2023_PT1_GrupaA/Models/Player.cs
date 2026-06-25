@@ -1,5 +1,7 @@
 ﻿
 
+
+
 namespace OTS2026_PT1_GrupaA.Models
 {
     public enum Move
